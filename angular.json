@@ -47,12 +47,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "src/favicon.ico",
-              "src/assets",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
-            ],
-            "styles": ["src/styles.scss"],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss", "node_modules/bootstrap/dist/css/bootstrap.min.css"],
             "scripts": []
           },
           "configurations": {
@@ -106,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "chef-truck"
+  "defaultProject": "chef-truck",
+  "cli": {
+    "analytics": "a950b12c-92cf-44c3-8663-40bf3258fab2"
+  }
 }
